@@ -9,7 +9,7 @@
   * [Testing in xorg](xtesting)
 * [Screenshots](screenshots)
 
-## Installing <a name="installing"></a> 
+## Installing <a name="installing">1</a> 
 
 ```
 git clone https://github.com/nasOS-official/plymouth-theme-nasos
@@ -17,7 +17,7 @@ sudo cp plymouth-theme-nasos /usr/share/plymouth/themes/
 sudo plymouth-set-default-theme -R plymouth-theme-nasos
 ```
 
-## Testing <a name="testing"></a> 
+## Testing <a name="testing">1</a> 
 
 ### Testing in tty session:<a name="tty_testing"></a> 
 1. Press **ctrl+alt+f3**
