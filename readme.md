@@ -1,6 +1,15 @@
 # nasOS plymouth theme
 
-## Installing
+## Contents<a name="contents"></a> 
+
+* [Contents](contents)
+* [Installing](installing)
+* [Testing](testing)
+  * [Testing in tty session](tty_testing)
+  * [Testing in xorg](xtesting)
+* [Screenshots](screenshots)
+
+## Installing <a name="installing"></a> 
 
 ```
 git clone https://github.com/nasOS-official/plymouth-theme-nasos
@@ -8,9 +17,9 @@ sudo cp plymouth-theme-nasos /usr/share/plymouth/themes/
 sudo plymouth-set-default-theme -R plymouth-theme-nasos
 ```
 
-## Testing
+## Testing <a name="testing"></a> 
 
-### Testing in tty session:
+### Testing in tty session:<a name="tty_testing"></a> 
 1. Press **ctrl+alt+f3**
 2. Execute commands
 ```
@@ -21,7 +30,7 @@ plymouth --show-splash
 ```
 plymouth --quit
 ```
-### Testing in xorg:
+### Testing in xorg:<a name="xtesting"></a> 
 1. Install **plymouth-x11**
 ```
 sudo apt-get install plymouth-x11 #on debian based distros
@@ -41,6 +50,6 @@ chmod +x ./install.sh
 ```
 sudo plymouth-preview 10 #preview plymouth for 10 seconds
 ```
-## Screenshots
+## Screenshots<a name="screenshots"></a> 
 
 ![Bootscreen](./screenshots/bootscreen.png "Bootscreen")
