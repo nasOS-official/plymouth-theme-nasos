@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Default theme for nasOS
+Description=Default theme for nasOS
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/plymouth-theme-nasos
+ScriptFile=/usr/share/plymouth/themes/plymouth-theme-nasos/plymouth-theme-nasos.script
