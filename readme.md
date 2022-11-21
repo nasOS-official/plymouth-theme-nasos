@@ -1,6 +1,6 @@
-#nasOS plymouth theme
+# nasOS plymouth theme
 
-##Installing
+## Installing
 
 ```
 git clone https://github.com/nasOS-official/plymouth-theme-nasos
@@ -8,6 +8,6 @@ sudo cp plymouth-theme-nasos /usr/share/plymouth/themes/
 sudo plymouth-set-default-theme -R plymouth-theme-nasos
 ```
 
-##Screenshots
+## Screenshots
 
 ![Bootscreen](./screenshots/bootscreen.png "Bootscreen")
